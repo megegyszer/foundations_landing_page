@@ -1,0 +1,38 @@
+  body {
+    font-family:monospace;
+    width: 900px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+ }
+
+ .header{
+    padding: 5 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+ }
+
+ .logo{
+
+ }
+
+ h1{
+    color:#F9FAF8;
+    font-size: 24px;;
+ }
+
+ ul, .menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+ }
+
+ a{
+    text-decoration: none;
+    color: #F9FAF8;
+ }
