@@ -1,11 +1,15 @@
-  body {
+  /* BASIC STYLE */
+ 
+ body {
     font-family:monospace;
     width: 900px;
+    margin: 0px auto;
     align-content: center;
     display: flex;
     flex-direction: column;
-    margin: 0px auto;
  }
+
+ /* HEADER */
 
  .header{
     padding: 5 100;
@@ -15,11 +19,7 @@
     background-color: #1F2937;
  }
 
- .logo{
-
- }
-
- h1{
+ h1 .logo {
     color:#F9FAF8;
     font-size: 24px;;
  }
@@ -36,3 +36,5 @@
     text-decoration: none;
     color: #F9FAF8;
  }
+
+ /* HERO */
