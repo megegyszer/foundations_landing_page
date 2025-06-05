@@ -135,15 +135,27 @@
     /* QUOTE */
 
   .quote{
-    padding: 40 170;
+    padding: 100 300;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .quote-text{
     font-style: italic;
     font-weight: 100;
     font-size: 36px;
-    color:#1F2937
+    color:#1F2937;
+    text-align: justify;
+  }
+
+  .quote-text-2{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    color:#1F2937;
+    text-align: right;
   }
 
     /* ACTION */
