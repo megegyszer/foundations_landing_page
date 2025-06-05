@@ -163,10 +163,12 @@
   .action{
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 80px 130px;
-    padding: 20px;
+    margin: 80px 200px;
+    padding: 20 80px;
+    border: none;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
   }
@@ -174,6 +176,10 @@
     h4 {
     padding: 0px;
     margin: 0px;
+  }
+
+  .action-text{
+    font-weight: 100;
   }
 
   .sign-up-button-white{
@@ -194,4 +200,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .footer-text{
+    font-weight: 100;
   }
