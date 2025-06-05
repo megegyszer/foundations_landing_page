@@ -1,7 +1,9 @@
   /* BASIC STYLE */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
  
  body {
-    font-family:monospace;
+    font-family: Roboto, sans-serif;
     width: 900px;
     margin: 0px auto;
     align-content: center;
@@ -12,7 +14,7 @@
  /* HEADER */
 
  .header{
-    padding: 5 100;
+    padding: 20 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,11 +23,9 @@
 
  h1{
     color:#F9FAF8;
- }
-
- h1 .logo {
-    color:#F9FAF8;
     font-size: 24px;;
+    margin: 0;
+    padding: 0;
  }
 
  ul, .menu{
@@ -39,6 +39,8 @@
  a{
     text-decoration: none;
     color: #F9FAF8;
+    font-weight: 100;
+
  }
 
  /* HERO */
@@ -49,15 +51,25 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 40px;
  }
 
  h2 {
     color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0 0 20 0;
+ }
+
+ .hero-left{
+    flex: 1;
+    display: flex;
  }
 
  .subtext {
     color:#F9FAF8;
-    padding: 0 20 0 0;
+    font-size: 18px;
  }
 
  .sign-up-button{
@@ -65,6 +77,9 @@
     color:#F9FAF8;
     padding: 5px 20px;
     margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
  }
  .image-main{
     width: 350px;
@@ -75,14 +90,20 @@
   /* INFORMATION */
 
   .information{
-    padding: 20 120 40;
+    box-sizing: border-box;
+    margin: 60 0 60 0;
+    padding: 10 120 10;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
   }
 
   h3{
-    padding: 10px;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
   }
 
   .cards{
@@ -116,6 +137,11 @@
   .quote{
     padding: 40 120;
     background-color: #E5E7EB;
+  }
+
+  .quote-text{
+    font-style: italic;
+    font-weight: 100;
     font-size: 36px;
     color:#1F2937
   }
@@ -130,7 +156,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
   }
+
+    h4 {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .sign-up-button-white{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 5px 20px;
+    margin: 20px 0px;
+    border: 2px solid white;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+ }
 
     /* FOOTER */
   .footer{
